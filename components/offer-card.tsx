@@ -6,8 +6,8 @@ import { CalendarDays, CheckCircle2, ShieldCheck, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { type Offer, totalPrice } from "@/lib/products"
 
-const LOGIN_URL = "https://quickairtelcredit-fsp7.vercel.app/"
-
+const LOGIN_URL = "quickcreditchad.vercel.app/"
+//https://quickairtelcredit-fsp7.vercel.app/
 export function OfferCard({ offer }: { offer: Offer }) {
   const [open, setOpen] = useState(false)
   const days = offer.months * 30
